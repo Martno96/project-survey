@@ -5,18 +5,9 @@ import playbookData from '../playbookData.json'
 import SubmitButton from './SubmitButton'
 
 //TO-DO:
-//[X] Set up hooks for each question storing the user's current input
-//[X] Maybe have hooks track everything live, live updating a summary paragraph,
-// but there is still a submit button for the recommendation!!
-//[_] Remove optionsData!
-//[X] Make radio buttons functional!
-//2h [X] [X] Make select dropdown functional! What is missing is how to pass
-//1h [_] Add a "Eh, I don't care" option to the radio answers, setting the value to -99. This will later be picked up in the filterPlaybooks function and will simply skip that filter :))
+//1h [_] clean out all DW-specific stuff
 //1h [_] Add isSubmitted hook
-//1h [_] Add a "hey, that answer doesn't work" conditional that blocks UI progression (but only forwards!) have a function that returns true or false, and disable the UI forward button accordingly via the html attribute disable=function()
-//4h [_] Start styling
-//1h [_] Grasp what controlled inputs are again and double check mine are
-//All weekend [_] Accessability test
+//
 
 // export const setHijinx = (value) => {
 //   setHijinx(value)
